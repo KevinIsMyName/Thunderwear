@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thunderwear</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="weatherAPI.js"></script>
+</head>
+<body>
+<header>
+    <a href="signup.php"><h3>Login</h3></a>
+    <a href="outfit.html"><h3>Outfit chooser</h3></a>
+</header>
+<hr>
+<h1>Thunderwear</h1>
+
+<p class="checklist">Will I need the...<br>
+<table>
+    <tr>
+        <td>
+            jacket?
+        </td>
+        <td>
+            umbrella?
+        </td>
+        <td>
+            scarf?
+        </td>
+        <td>
+            boots?
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ✔
+        </td>
+        <td>
+            ✔
+        </td>
+        <td>
+            ✔
+        </td>
+        <td>
+            ✔
+        </td>
+    </tr>
+</table><br>
+<input id="inputBox" type="text" placeholder="City"><br>
+<p id="prefix">RealFeel Forecast</p>
+<button id="currentButton">Current</button>
+<button id="oneHourButton">1 hour</button>
+<button id="twelveHourButton">12 hours</button>
+<p id="currentOutput">current</p>
+<p id="oneHourOutput">1 hour</p>
+<div id="hours2to12">
+    <p id="twoHourOutput">2 hour</p>
+    <p id="threeHourOutput">3 hour</p>
+    <p id="fourHourOutput">4 hour</p>
+    <p id="fiveHourOutput">5 hour</p>
+    <p id="sixHourOutput">6 hour</p>
+    <p id="sevenHourOutput">7 hour</p>
+    <p id="eightHourOutput">8 hour</p>
+    <p id="nineHourOutput">9 hour</p>
+    <p id="tenHourOutput">10 hour</p>
+    <p id="elevenHourOutput">11 hour</p>
+    <p id="twelveHourOutput">12 hour</p>
+</div>
+
+<br><br><br>
+<img src="resource/images/AccuweatherLogo.jpg" alt="Powered by Accuweather">
+</body>
+</html>

@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title> Weather Outfit Chooser | Login screen </title>
+    <meta name = "description" contents = "Weather Outfit Chooser | Login page">
+    <script type="text/javascript" src="Login.js"></script>
+</head>
+<body>
+
+<h1 id = "login"> Login Screen </h1>
+
+<form method = "post" action= "login.php">
+    <label for = "uname"><b>Username</b></label>
+<input type = "text" placeholder= "Username" name = "uname">
+    <span class = "error">* <?php echo $unameerr;?></span>
+    <br><br>
+<!--Creates username input for site-->
+<label for = "pass"><b>Password</b></label>
+<input type = "text" placeholder = "password" name = "pass">
+    <span class = "error">* <?php echo $passerr;?></span>
+<!--Creates password input for site-->
+    <br><br>
+<button type = "submit">Login</button>
+<!--Submit button for login-->
+<label> <input type = "checkbox" checked = "checked" name = "remember"> Remember me </label>
+<!--Lets people be remembered when logged in-->
+</form>
+<hr>
+
+
+<p id="paragraph">hiiiii</p>
+<p id = "test"> I love you </p>
+<p id = "test2"> I love CS</p>
+<button type="button" onclick="testing()">Try it</button>
+
+<button type = "button" onclick = "help()">Don't touch this</button>
+
+<button type = "button" onclick="testing2()">Why are there so many buttons</button>
+
+
+</body>
+</html>
