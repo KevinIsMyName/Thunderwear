@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
      $Congrats = "Congrats you made an account! ";
      $PassM = "Your Password is $Pass1";
      $EmailM = "Your Email for this account is $Email1";
-     $Login =  "<html><button class = 'loginbutton' ><a href='outfit.html'>Would you like to log?</a></button></html>";
+     $Login = "<html><button class = 'loginbutton' ><a href='../outfit.html'>Would you like to log?</a></button></html>";
      }
  else{
  }
